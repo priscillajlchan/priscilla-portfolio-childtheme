@@ -13,7 +13,7 @@ get_header(); ?>
 		
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		
-		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+		<!-- <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			
 			<h2><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 			
@@ -39,7 +39,7 @@ get_header(); ?>
 
 			<div class="post-line"></div>
 
-		</article>
+		</article> -->
 		
 	<?php endwhile; endif; ?>
 	
