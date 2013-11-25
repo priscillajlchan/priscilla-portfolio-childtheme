@@ -8,10 +8,31 @@
 get_header(); ?>
 
 <div id="main">
+
+
+	<div id="homewrapper">
+
+    <!-- <div id="welcomequote">
+		"Designers are meant to be loved;
+		<br> not understood"
+	</div> -->
+
+	<ul>
+		<a class="twitter" href="#">Twitter</a>
+	</ul>
 	
-	<section id="content">
+	<!-- <section id="content"> -->
 		
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+
+       
+
+	</div>
+
+
+
+
 		
 		<!-- <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			
@@ -45,7 +66,7 @@ get_header(); ?>
 	
 	<?php get_template_part( 'inc/nav' ); ?>
 	
-	</section><!-- #content -->
+	<!-- </section> --><!-- #content -->
 
 <?php get_sidebar(); ?>
 

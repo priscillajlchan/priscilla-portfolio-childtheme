@@ -12,39 +12,25 @@ Version: 0.1
 
 
 @import url("../BasicWPTheme/style.css");
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
 
 body {
 	background: url('../BasicWPTheme-child/assets/crumplepaper.png');
 	background-color: #CCCCCC;
-	font-family: 'Helvetica Neue', sans serif;
+	font-family: 'Helvetica Neue', sans-serif;
 }
 
-#main {
-	border-top:#DDDDDD 1px dotted;
-	margin-left:25px;
-	width: 300px;
-	left: 500px;
+h1, h2, h3, h4, h5, h6 {
+	color: #444;
+	font-family: 'Raleway', sans-serif;
+	}
 
-}
 
-#branding {
-	background:url('../BasicWPTheme-child/assets/pris-logo.png') no-repeat;
-	position:relative;
-	top: 10px;
-	left: 360px;
-	height: 160px;
+
+#wrap {
+	background: #FFF;
 	width: 960px;
 }
-
-/*#home-button {
-	background:url('../BasicWPTheme-child/assets/pris-logo.png') no-repeat;
-	position:relative;
-	top: 10px;
-	left: 380px;
-	height: 160px;
-	width: 960px;
-
-}*/
 
 #top-nav {
 	position:absolute;
@@ -52,13 +38,14 @@ body {
 	text-transform: uppercase;
 	top: 72px;
 	left: 30px;
-	width: 800px;
-	font-family: 'Helvetica Neue', Ariel, sans serif;
+	width: 300px;
+	font-family: 'Helvetica Neue', Ariel, sans-serif;
 }
 
 #top-nav .menu-header li.portnav {
 	float: right;
-	right: 60px;
+	right: -440px;
+	top: -40px;
 
 }
 
@@ -76,7 +63,8 @@ body {
 
 #top-nav .menu-header li.contactnav {
 	float: right;
-	left: 245px;
+	right: -730px;
+	top: -40px;
 
 }
 
@@ -98,6 +86,129 @@ body {
     color: #8fd3d9;
 }
 
+#branding {
+	background:url('../BasicWPTheme-child/assets/pris-logo.png') no-repeat;
+	position:relative;
+	top: 10px;
+	left: 360px;
+	height: 160px;
+	
+}
+
+#logo a {
+	width: 226px;
+	height: 116px;
+	margin: 0px;
+}
+
+#form {
+	color: #617fa6;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Home Page Content */
+
+
+/* Social Media links*/
+
+.linkedin, .twitter, .google{
+	background: url('../BasicWPTheme-child/assets/sprites.png') no-repeat;
+}
+
+.linkedin{
+	background-position: 0 0;
+	width: 32px;
+	height: 32px;
+}
+
+.twitter{
+	background-position: -44px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.google{
+	background-position: -86px 0;
+	width: 32px;
+	height: 32px;
+}
+
+
+
+
+
+/* Social Media ENDS*/
+
+#homewrapper {
+	height: 500px;
+/*	background: url('../BasicWPTheme-child/assets/seawall.jpg') no-repeat;
+	background-size: 940px 500px;
+*/
+
+}
+
+#welcomequote {
+	text-align: center;
+	position: relative;
+	right: -15px;
+	bottom: -60px;
+	font-size: 40px;
+	line-height: 45px;
+	color: #CCCCCC;
+	font-family: 'Raleway' sans-serif; font-weight:200; 
+
+}
+
+
+
+/* Home Page End */
+
+
+img {
+position:relative;
+left:75px;
+top:0px;
+
+}
+
+#aboutwrapper {
+	height: 500px;
+}
+
+#priscilla h1 {
+	position: relative;
+	color: #617fa6;
+	left: 75px;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#aboutpris {
+	position: relative;
+	text-align:justify;
+	right: -470px;
+	top: -455px;
+	font-size: 16px;
+	width: 375px;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+/**/
+footer {
+    text-align: center;
+}
+footer p{
+    color:#617fa6;
+    text-align: 50px;
+    letter-spacing: 3px;
+}
+/**/
+
+
+
+
+
 
 
 /*
@@ -110,34 +221,6 @@ body {
 #wrap {
 	background: #FFF;
 	width: 960px;
-}
-
-#top-nav {
-	position:absolute;
-	background-color: transparent;
-	text-transform: uppercase;
-	top: 62px;
-	left: 310px;
-	width: 660px;
-	font-family: 'Helvetica Neue', Ariel, sans serif;
-}
-
-#top-nav ul li a {
-
-	font-size: 17px;
-	letter-spacing: 3px;
-	color: #99619F;
-}
-
-#top-nav ul li a:hover, 
-#top-nav ul li.current_page_item a,
-#top-nav ul li.current_page_parent a,
-#top-nav ul li.current_page_ancestor a,
-#top-nav ul li.current-menu-ancestor a, 
-#top-nav ul li.current-menu-item a,
-#top-nav ul li.current-menu-parent a {
-    background-color: transparent;
-    color: #99619F;
 }
 
 #sidebar {
