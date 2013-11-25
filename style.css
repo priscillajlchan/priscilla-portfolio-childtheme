@@ -108,63 +108,27 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Home Page Content */
 
-
-/* Social Media links*/
-
-.linkedin, .twitter, .google{
-	background: url('../BasicWPTheme-child/assets/sprites.png') no-repeat;
-}
-
-.linkedin{
-	background-position: 0 0;
-	width: 32px;
-	height: 32px;
-}
-
-.twitter{
-	background-position: -44px 0;
-	width: 32px;
-	height: 32px;
-}
-
-.google{
-	background-position: -86px 0;
-	width: 32px;
-	height: 32px;
-}
-
-
-
-
-
-/* Social Media ENDS*/
-
-#homewrapper {
-	height: 500px;
-/*	background: url('../BasicWPTheme-child/assets/seawall.jpg') no-repeat;
-	background-size: 940px 500px;
-*/
-
-}
-
 #welcomequote {
 	text-align: center;
 	position: relative;
 	right: -15px;
-	bottom: -60px;
-	font-size: 40px;
-	line-height: 45px;
+	bottom: -80px;
+	font-size: 50px;
+	line-height: 60px;
 	color: #CCCCCC;
+	font-style: italic;
 	font-family: 'Raleway' sans-serif; font-weight:200; 
+}
+
+#homewrapper {
+	height: 500px;
 
 }
 
 
-
 /* Home Page End */
 
-
-img {
+#priscilla img {
 position:relative;
 left:75px;
 top:0px;
@@ -186,6 +150,7 @@ top:0px;
 #aboutpris {
 	position: relative;
 	text-align:justify;
+	line-height: 25px;
 	right: -470px;
 	top: -455px;
 	font-size: 16px;
@@ -194,7 +159,34 @@ top:0px;
 	
 }
 
+
+
 /**/
+
+/* Social Media links*/
+
+#socmedicon .twitter {
+	position: relative;
+	left: 350px;
+	top: 440px;
+}
+
+#socmedicon .linkedin {
+	position: relative;
+	left: 350px;
+	top: 440px;
+}
+
+#socmedicon .google {
+	position: relative;
+	left: 350px;
+	top: 440px;
+}
+
+
+
+/* Social Media ENDS*/
+
 footer {
     text-align: center;
 }
