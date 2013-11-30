@@ -29,22 +29,8 @@ get_header(); ?>
 	</div>
 
 	
-	<!-- <section id="content"> -->
-		
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-
+	<?php get_footer(); ?>
 	</div>
 
-		
-	<?php endwhile; endif; ?>
+
 	
-	<?php get_template_part( 'inc/nav' ); ?>
-	
-	<!-- </section> --><!-- #content -->
-
-<?php get_sidebar(); ?>
-
-</div><!-- #main -->
-
-<?php get_footer(); ?>
